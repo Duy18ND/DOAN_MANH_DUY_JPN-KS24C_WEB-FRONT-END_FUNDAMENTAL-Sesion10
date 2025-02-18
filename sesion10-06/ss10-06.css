@@ -1,0 +1,83 @@
+* {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9fafc;
+}
+.container {
+    background-color: #f1f3f7;
+    margin: 20px;
+    padding: 20px;
+    width: 1245px;
+}
+
+.container .content div:nth-last-of-type(4) img {
+    position: relative;
+}
+
+.container .content  div {
+    color: white;
+}
+.container .content div:nth-last-of-type(4) div {
+    position: absolute;
+    font-size: 25px;
+    padding: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    top: 70px;
+    left: 70px;
+}
+.container .content div:nth-last-of-type(3) {
+    position: absolute;
+    top: 391px;
+    left: 70px;
+}
+.container .content div:nth-last-of-type(2) {
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 435px;
+    left: 70px;
+}
+.container .content div:nth-last-of-type(1) {
+    position: absolute;
+    top: 545px;
+    left: 70px;
+}
+.container .nav  {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.container .nav button {
+    margin: 20px;
+    padding: 15px;
+}
+.container .nav .icon {
+    border-radius: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #bab8b8;
+    border: none;
+}
+.container .nav .icon i {
+    font-size: 23px;
+    color: white;
+}
+.container .choice {
+    border-radius: 360px;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+}
+.container .nav .choice:nth-last-of-type(5) {
+    background-color: #262626;
+    color: white;
+}
